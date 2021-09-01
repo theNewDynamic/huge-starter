@@ -1,0 +1,8 @@
+<header>
+  <div class="container">
+  <a class="{{ if eq . site.Home }}active{{ end }}" href="{{ site.Home.RelPermalink }}">HUGE</a>
+  {{ range site.RegularPages }}
+    <a class="{{ if eq . $ }}active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+  </div>
+</header>

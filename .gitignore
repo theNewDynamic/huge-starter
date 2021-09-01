@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugo
+hugo_stats.json
+public
+resources
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,7 @@
+# https://github.com/theNewDynamic/huge/wiki/Scripts
+scripts:
+- name: hugely
+  path: js/hugely.js
+  params:
+    default_copy: HUGE
+    placeholder: Say it Hugely!

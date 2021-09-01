@@ -1,0 +1,8 @@
+# Config Base
+# This is where root config key goes.
+# ###################################
+title: Huge Starter
+baseURL: https://huge-starter.netlify.app
+DefaultContentLanguage: en
+enableRobotsTXT: true
+disableAliases: true
