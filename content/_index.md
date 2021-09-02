@@ -1,5 +1,6 @@
 ---
 title: Home
+description: Styles and scripts building, media transformation, self-loaded fonts and SEO in the configuration. Hugo is even more declarative with HUGE.
 ---
 
 ```yaml
