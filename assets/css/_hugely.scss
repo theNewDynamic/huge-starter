@@ -3,16 +3,21 @@
   font-size: 2rem;
 }
 .hugely__input{
-  font-size: 1rem;
-
-  padding: .3rem 1rem;
-  border-width: 2px;
-  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  text-align: center;
+  font-size: .7rem;
+  padding: .3rem .2rem;
+  border: 2px solid currentColor;
+  outline-color: currentColor;
+  width: 156px;
 }
 .hugely__hero{
   padding: 1px;
   letter-spacing: 1.2;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 900;
   line-height: .9;
   max-width: 80rem;
@@ -25,8 +30,23 @@
 .hugely__baseline{
   margin-top: -2rem;
 }
-
+@media (min-width: 500px) {
+  .hugely__input{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 101px;
+    width: 202px;
+  }
+  .hugely__hero{
+    font-size: 8rem;
+  }
+}
 @media (min-width: 990px) {
+  .hugely__input{
+    font-size: 1rem;
+    top: 138px;
+  }
   .hugely__hero{
     font-size: 13rem;
     margin: .7rem auto 1.5rem auto;

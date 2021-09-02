@@ -1,9 +1,15 @@
+:root{
+  --color: #222222
+  --bg-color: white;
+}
+
 html, body {
   height: 100%;
 }
 
 body{
-  color: #222222;
+  color: var(--color);
+  background-color: var(--bg-color);
   font-family: Open, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Roboto;
   display: flex;
   flex-direction: column;

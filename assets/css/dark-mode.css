@@ -1,0 +1,6 @@
+@media (prefers-color-scheme: dark) {
+  :root{
+    --color: white;
+    --bg-color: #222222;
+  }
+}

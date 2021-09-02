@@ -4,3 +4,6 @@ styles:
   path: css/main.scss
   fingerprint: production
   integrity: true
+- name: dark-mode
+  path: css/dark-mode.css
+  inline: true
