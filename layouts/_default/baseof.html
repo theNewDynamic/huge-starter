@@ -1,11 +1,14 @@
-<head>
-  {{ partial "head" . }}
-</head>
-<body class="{{ .Kind }}">
-  <main>
-    {{ block "main" . }}
-      
-    {{ end }}
-  </main>
-  {{ partial "footer" . }}
-</body>
+<!doctype html>
+<html>
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body class="{{ .Kind }}">
+    <main>
+      {{ block "main" . }}
+        
+      {{ end }}
+    </main>
+    {{ partial "footer" . }}
+  </body>
+</html>
