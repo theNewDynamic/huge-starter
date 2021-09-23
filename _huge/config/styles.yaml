@@ -6,4 +6,4 @@ styles:
   integrity: true
 - name: dark-mode
   path: css/dark-mode.css
-  inline: true
+  internal: true
